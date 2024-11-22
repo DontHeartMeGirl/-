@@ -51,4 +51,8 @@
   <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/image.png alt="登录界面图片">
 </div>
 
+### 探索性分析  
+1、店铺星级图数量分布  
+
+
  
