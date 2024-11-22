@@ -32,5 +32,5 @@
 
 在爬取完数据后，打开MySQL命令行，输入代码将爬取结果转为csv文件。
 <div align="center">
-  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/Mysql.png alt="登录界面图片" width="300">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/Mysql.png alt="登录界面图片">
 </div>
