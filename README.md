@@ -45,4 +45,10 @@
 <div align="center">
   <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/%E7%82%B9%E8%AF%84.png alt="登录界面图片">
 </div>
+
+### 词云展示
+<div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/image.png alt="登录界面图片">
+</div>
+
  
