@@ -43,6 +43,6 @@
  
  **改进后词频分析结果**：
 <div align="center">
-  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/%E8%AF%8D%E9%A2%91%E5%B1%95%E7%A4%BA.png alt="登录界面图片">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/%E7%82%B9%E8%AF%84.png alt="登录界面图片">
 </div>
  
