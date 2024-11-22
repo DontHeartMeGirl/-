@@ -25,7 +25,12 @@
 **·错误处理和事务提交**：在数据插入过程中，代码通过 try-except 块来处理可能出现的异常，并在数据成功插入后提交事务。  
 **·关闭数据库连接**：close_sql 函数用于关闭数据库连接。  
 #### CRAW_IP.py
-·爬取代理IP：文件中定义了一个名为 Proxies 的类。类的构造函数初始化了一个空的代理列表（self.proxies），然后调用 get_proxies 和 get_proxies_nn 方法来填充这个列表。这些方法访问 xicidaili.com 网站的不同页面，爬取代理IP地址和端口号。  
-·代理格式处理：爬取的代理IP地址和端口号被格式化为 protocol://IP:port 的形式，并添加到代理列表中。  
-·验证代理IP：verify_proxies 方法用于验证代理列表中的IP地址。它创建多个进程来并行验证每个代理，使用 requests.get 方法尝试通过代理访问 baidu.com。如果代理可以成功访问，它会被添加到新的队列中。  
-·输出有效代理：有效的代理IP地址被保存到本地文件 proxies.txt 中  
+**·爬取代理IP**：文件中定义了一个名为 Proxies 的类。类的构造函数初始化了一个空的代理列表（self.proxies），然后调用 get_proxies 和 get_proxies_nn 方法来填充这个列表。这些方法访问 xicidaili.com 网站的不同页面，爬取代理IP地址和端口号。  
+**·代理格式处理**：爬取的代理IP地址和端口号被格式化为 protocol://IP:port 的形式，并添加到代理列表中。  
+**·验证代理IP**：verify_proxies 方法用于验证代理列表中的IP地址。它创建多个进程来并行验证每个代理，使用 requests.get 方法尝试通过代理访问 baidu.com。如果代理可以成功访问，它会被添加到新的队列中。  
+**·输出有效代理**：有效的代理IP地址被保存到本地文件 proxies.txt 中  
+
+在爬取完数据后，打开MySQL命令行，输入代码将爬取结果转为csv文件。
+<div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/Mysql.png alt="登录界面图片" width="300">
+</div>
