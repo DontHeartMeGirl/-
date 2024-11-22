@@ -34,3 +34,15 @@
 <div align="center">
   <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/Mysql.png alt="登录界面图片">
 </div>
+
+## 二、文本数据预处理与探索性分析
+### 数据预处理
+ **去除非文本数据**：爬虫获取的数据非常多类似“\xa0”的非文本数据，而且都还有一些无意义的干扰数据，因此我们需要将文本中无关的数据清除。 
+ 
+**中文分词与去除停用词**：使用jieba库把文本字符串处理为以空格区隔的分词字符串，以及列出所有需要排除的常见但不重要的词，在分词过程中过滤掉这些词。在统计词频之前，从每个评论的分词结果中移除这些停用词，再进行词频分析
+ 
+ **改进后词频分析结果**：
+<div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/%E8%AF%8D%E9%A2%91%E5%B1%95%E7%A4%BA.png alt="登录界面图片">
+</div>
+ 
