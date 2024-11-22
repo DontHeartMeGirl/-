@@ -32,7 +32,7 @@
 
 在爬取完数据后，打开MySQL命令行，输入代码将爬取结果转为csv文件。
 <div align="center">
-  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/Mysql.png alt="登录界面图片">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/Mysql.png alt="Mysql照片">
 </div>
 
 ## 二、文本数据预处理与探索性分析
@@ -43,16 +43,31 @@
  
  **改进后词频分析结果**：
 <div align="center">
-  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/%E7%82%B9%E8%AF%84.png alt="登录界面图片">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/%E7%82%B9%E8%AF%84.png alt="词频分析结果">
 </div>
 
 ### 词云展示
 <div align="center">
-  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/image.png alt="登录界面图片">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/image.png alt="词云展示">
 </div>
 
 ### 探索性分析  
-1、店铺星级图数量分布  
+1、店铺星级图数量分布图  
+<div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/076b1bdf5488b7e5787fc7a8353ca91.png alt="店铺星级图数量分布">
+</div>
 
+2、各星期内小时评论数分布图
+<div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/492e4825926025003e98bde2ee81024.png alt="各星期内小时评论数分布图">
+</div>
 
- 
+ 3、评论长度分布箱型图
+ <div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/492e4825926025003e98bde2ee81024.png alt="评论长度分布箱型图">
+</div>
+
+4、交互式主题模型可视化
+ <div align="center">
+  <img src=https://github.com/DontHeartMeGirl/images_for_README/blob/main/images/67a43da46f616f9eccd43b46aba7705.png alt="交互式主题模型可视化">
+</div>
